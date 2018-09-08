@@ -18,14 +18,15 @@
         "build": "babel src/lib -d lib && babel src/test -d test",
         "test": "eslint src/lib && mocha"
     },
-    "dependencies": {},
+    "dependencies": {
+        "@babel/cli": "^7.0.0",
+        "@babel/core": "7.0.0",
+        "@babel/preset-env": "7.0.0"
+    },
     "devDependencies": {
         "chrysalis-focus": "git://github.com/Lepidopterarium/chrysalis-focus.git#master",
         "chrysalis-keymap": "git://github.com/Lepidopterarium/chrysalis-keymap.git#master",
         "serialport": "^6.2.2",
-        "@babel/cli": "^7.0.0",
-        "@babel/core": "7.0.0",
-        "@babel/preset-env": "7.0.0",
         "chai": "^4.1.2",
         "eslint": "^4.19.1",
         "mocha": "^5.2.0"
