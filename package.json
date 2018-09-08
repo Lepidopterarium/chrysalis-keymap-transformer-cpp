@@ -22,9 +22,10 @@
     "devDependencies": {
         "chrysalis-focus": "git://github.com/Lepidopterarium/chrysalis-focus.git#master",
         "chrysalis-keymap": "git://github.com/Lepidopterarium/chrysalis-keymap.git#master",
-        "serialport": "latest",
-        "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.7.0",
+        "serialport": "^6.2.2",
+        "@babel/cli": "^7.0.0",
+        "@babel/core": "7.0.0",
+        "@babel/preset-env": "7.0.0",
         "chai": "^4.1.2",
         "eslint": "^4.19.1",
         "mocha": "^5.2.0"
